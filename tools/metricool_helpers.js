@@ -78,10 +78,17 @@ window.prDate = async function (iso, hour12, minute, ampm) {
   if (!cell) throw new Error('no day cell for ' + iso); cell.click(); await prSleep(500);
   const [hs, ms] = pop().querySelectorAll('select');
   for (const [s, v] of [[hs, hour12], [ms, minute]]) { s.value = String(v); s.dispatchEvent(new Event('change', { bubbles: true })); await prSleep(200); }
-  const ap = [...pop().querySelectorAll('div')].find(e => e.childElementCount === 0 && e.textContent.trim() === ampm);
-  ap.click(); await prSleep(500);
-  const btn = [...document.querySelectorAll('button')].find(b => /\w{3} \d{1,2}, \d{4} \d{1,2}:\d{2} [AP]M/.test(b.textContent));
-  return btn ? btn.textContent.trim() : 'date button not found';
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const [y, m, d] = iso.split('-').map(Number);
+  const want = `${months[m - 1]} ${d}, ${y} ${hour12}:${String(minute).padStart(2, '0')} ${ampm}`;
+  const label = () => (([...document.querySelectorAll('button')].find(b => /\w{3} \d{1,2}, \d{4} \d{1,2}:\d{2} [AP]M/.test(b.textContent)) || {}).textContent || '').trim();
+  // The AM/PM toggle sometimes ignores the first click: click until the label matches.
+  for (let i = 0; i < 4 && label() !== want; i++) {
+    const ap = [...pop().querySelectorAll('div')].find(e => e.childElementCount === 0 && e.textContent.trim() === ampm);
+    ap.click(); await prSleep(600);
+  }
+  if (label() !== want) throw new Error('date is "' + label() + '", expected "' + want + '"');
+  return label();
 };
 
 // Opens the "Create new post" editor from the planner.
