@@ -84,6 +84,43 @@ window.prDate = async function (iso, hour12, minute, ampm) {
   return btn ? btn.textContent.trim() : 'date button not found';
 };
 
+// Opens the "Create new post" editor from the planner.
+window.prCreate = async function () {
+  const b = [...document.querySelectorAll('button')].find(x => x.offsetParent && (x.getAttribute('aria-label') === 'Create post' || x.textContent.trim() === 'Create post'));
+  if (!b) throw new Error('Create post button not found'); b.click(); await prSleep(2500);
+  return !!document.querySelector('.editor-box');
+};
+
+// Turns on "EDIT BY NETWORK" (Template + one tab per network).
+window.prEditByNetwork = async function () {
+  if (document.querySelector('.tab i.fa-facebook')) return 'already on';
+  const b = [...document.querySelectorAll('button, div, span')].find(x => x.offsetParent && x.childElementCount <= 2 && /^edit by network$/i.test(x.textContent.trim()));
+  if (!b) throw new Error('Edit by network button not found'); (b.closest('button') || b).click(); await prSleep(1000);
+  return !!document.querySelector('.tab i.fa-facebook') ? 'on' : 'failed';
+};
+
+// Opens the date picker (the button at the bottom showing e.g. "Nov 23, 2026 3:58 PM").
+window.prOpenDate = async function () {
+  const b = [...document.querySelectorAll('button')].find(x => x.offsetParent && /\w{3} \d{1,2}, \d{4} \d{1,2}:\d{2} [AP]M/.test(x.textContent));
+  if (!b) throw new Error('date button not found'); b.click(); await prSleep(1200);
+  return 'open';
+};
+
+// Closes an open picker/menu by clicking the editor title (never Escape).
+window.prBlur = async function () {
+  const h = [...document.querySelectorAll('*')].find(x => x.childElementCount === 0 && x.textContent.trim() === 'Create new post');
+  (h || document.body).click(); await prSleep(500); return 'ok';
+};
+
+// Clicks "Schedule N" (live, Auto publish on). Returns the button label it clicked.
+window.prSchedule = async function (expectN) {
+  const b = [...document.querySelectorAll('button')].find(x => x.offsetParent && /^Schedule\s*\d*$/.test(x.textContent.trim()));
+  if (!b) throw new Error('Schedule button not found');
+  const label = b.textContent.trim().replace(/\s+/g, ' ');
+  if (expectN && label !== 'Schedule ' + expectN) throw new Error('unexpected button label: ' + label);
+  b.click(); return 'clicked ' + label;
+};
+
 // Lists posts on a date in the planner's week view (navigate to that week first).
 // Scheduled posts read "10:00 AM <caption>", drafts read "10:00 AM Draft <caption>".
 window.prExists = function (iso) {
