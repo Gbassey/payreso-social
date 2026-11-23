@@ -98,8 +98,10 @@ window.prGoWeek = async function (iso) {
   for (let i = 0; i < 8 && !document.querySelector('td.fc-timegrid-col[data-date="' + iso + '"]'); i++) {
     // The week navigator is [<] [calendar-week button] [>]; take the button after the middle one.
     const wk = [...document.querySelectorAll('button')].find(b => b.querySelector('i.fa-calendar-week') && b.offsetParent);
-    let next = wk && wk.nextElementSibling;
-    while (next && next.tagName !== 'BUTTON') next = next.nextElementSibling;
+    const wr = wk && wk.getBoundingClientRect();
+    const next = wk && [...document.querySelectorAll('button')]
+      .filter(b => b.offsetParent && Math.abs(b.getBoundingClientRect().top - wr.top) < 6 && b.getBoundingClientRect().left >= wr.right - 2)
+      .sort((a, b) => a.getBoundingClientRect().left - b.getBoundingClientRect().left)[0];
     if (!next) throw new Error('next-week button not found'); next.click(); await prSleep(1500);
   }
   return !!document.querySelector('td.fc-timegrid-col[data-date="' + iso + '"]');
