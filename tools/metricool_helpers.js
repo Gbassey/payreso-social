@@ -96,7 +96,10 @@ window.prExists = function (iso) {
 // Moves the planner week view forward until the week containing iso is shown.
 window.prGoWeek = async function (iso) {
   for (let i = 0; i < 8 && !document.querySelector('td.fc-timegrid-col[data-date="' + iso + '"]'); i++) {
-    const next = [...document.querySelectorAll('button')].find(b => b.querySelector('i.fa-chevron-right, i.fa-angle-right, .fa-arrow-right') && b.offsetParent && b.getBoundingClientRect().top < 400);
+    // The week navigator is [<] [calendar-week button] [>]; take the button after the middle one.
+    const wk = [...document.querySelectorAll('button')].find(b => b.querySelector('i.fa-calendar-week') && b.offsetParent);
+    let next = wk && wk.nextElementSibling;
+    while (next && next.tagName !== 'BUTTON') next = next.nextElementSibling;
     if (!next) throw new Error('next-week button not found'); next.click(); await prSleep(1500);
   }
   return !!document.querySelector('td.fc-timegrid-col[data-date="' + iso + '"]');
