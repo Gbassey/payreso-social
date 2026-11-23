@@ -68,7 +68,7 @@ window.prNet = async function (net, text) {
 
 // Date picker must already be open (click the date button at the bottom of the editor).
 window.prDate = async function (iso, hour12, minute, ampm) {
-  const pop = () => [...document.querySelectorAll('div')].filter(e => e.innerText && e.innerText.includes('Europe/London') && e.querySelector('select')).pop();
+  const pop = () => [...document.querySelectorAll('div')].filter(e => e.offsetParent && e.innerText && e.innerText.includes('Europe/London') && e.querySelector('select')).pop();
   if (!pop()) throw new Error('date picker is not open');
   for (let i = 0; i < 13 && !pop().querySelector('.vc-day.id-' + iso); i++) {
     const n = pop().querySelector('.vc-next, .vc-arrow.is-right, button.vc-arrow:last-of-type');
@@ -94,22 +94,30 @@ window.prCreate = async function () {
 // Turns on "EDIT BY NETWORK" (Template + one tab per network).
 window.prEditByNetwork = async function () {
   if (document.querySelector('.tab i.fa-facebook')) return 'already on';
-  const b = [...document.querySelectorAll('button, div, span')].find(x => x.offsetParent && x.childElementCount <= 2 && /^edit by network$/i.test(x.textContent.trim()));
-  if (!b) throw new Error('Edit by network button not found'); (b.closest('button') || b).click(); await prSleep(1000);
+  const b = [...document.querySelectorAll('.v-chip')].find(x => x.offsetParent && /^edit by network$/i.test(x.textContent.trim()));
+  if (!b) throw new Error('Edit by network chip not found'); b.click(); await prSleep(1000);
   return !!document.querySelector('.tab i.fa-facebook') ? 'on' : 'failed';
 };
 
 // Opens the date picker (the button at the bottom showing e.g. "Nov 23, 2026 3:58 PM").
 window.prOpenDate = async function () {
   const b = [...document.querySelectorAll('button')].find(x => x.offsetParent && /\w{3} \d{1,2}, \d{4} \d{1,2}:\d{2} [AP]M/.test(x.textContent));
-  if (!b) throw new Error('date button not found'); b.click(); await prSleep(1200);
-  return 'open';
+  if (!b) throw new Error('date button not found'); b.click();
+  for (let i = 0; i < 20; i++) {
+    await prSleep(300);
+    if ([...document.querySelectorAll('.vc-day-content')].some(e => e.offsetParent)) return 'open';
+  }
+  throw new Error('date picker did not open');
 };
 
 // Closes an open picker/menu by clicking the editor title (never Escape).
 window.prBlur = async function () {
   const h = [...document.querySelectorAll('*')].find(x => x.childElementCount === 0 && x.textContent.trim() === 'Create new post');
-  (h || document.body).click(); await prSleep(500); return 'ok';
+  const el = h || document.body; const rc = el.getBoundingClientRect();
+  const o = { bubbles: true, cancelable: true, clientX: rc.left + 5, clientY: rc.top + 5, view: window };
+  for (const t of ['pointerdown', 'mousedown', 'pointerup', 'mouseup', 'click'])
+    el.dispatchEvent(new (t.startsWith('pointer') ? PointerEvent : MouseEvent)(t, o));
+  await prSleep(600); return 'ok';
 };
 
 // Clicks "Schedule N" (live, Auto publish on). Returns the button label it clicked.
