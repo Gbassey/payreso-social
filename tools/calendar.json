@@ -25,16 +25,16 @@
       "bg_prompt": "Close-up photo of a laptop on a tidy office desk at dusk showing a blurred calendar interface, coffee cup, notebook, deep navy and electric blue colour grade, cinematic, no readable text, no people",
       "slides": [
         {"kind": "cover", "tag": "Inside PayReso", "headline": "Reminders that [chase for you]", "sub": "How automatic reminders work →"},
-        {"kind": "point", "num": "01", "title": "Send a branded invoice", "body": "Your logo and brand colour on the invoice, the PDF and the payment page."},
-        {"kind": "point", "num": "02", "title": "Reminders go out on time", "body": "Polite, automatic reminders as the due date approaches and passes, so nothing slips."},
-        {"kind": "point", "num": "03", "title": "Easy to pay", "body": "Each reminder links straight to a secure online payment page."},
+        {"kind": "point", "num": "01", "title": "Send a branded invoice", "body": "Your logo and business details on the invoice, the PDF and the customer link."},
+        {"kind": "point", "num": "02", "title": "Reminders go out on time", "body": "Polite, automatic reminders before and after the due date, so nothing slips."},
+        {"kind": "point", "num": "03", "title": "Easy to act on", "body": "Each reminder links to the invoice, with bank details, the PDF and quick reply buttons."},
         {"kind": "point", "num": "04", "title": "Everything on one timeline", "body": "Every invoice, reminder and reply is logged, so you always know what was sent and when."},
         {"kind": "cta", "headline": "Stop chasing by hand. [Start with PayReso.]", "body": "Founding Pilot places are open now.", "button": "payresoai.com"}
       ],
       "captions": {
-        "linkedin": "Chasing invoices by hand eats hours most small businesses don't have.\n\nHere's how PayReso's automatic reminders work:\n\n1. Send a branded invoice with your logo and colours.\n2. Polite reminders go out automatically around the due date.\n3. Each reminder links to a secure payment page.\n4. Every invoice, reminder and reply sits on one timeline.\n\nLess admin, a clear record, and more time for the actual work.\n\nWe're opening Founding Pilot places for UK businesses: payresoai.com\n\n#SmallBusiness #Invoicing #LatePayment #UKStartups",
-        "instagram": "Reminders that chase for you 🔔\n\n1️⃣ Branded invoice\n2️⃣ Automatic, polite reminders\n3️⃣ One-click payment link\n4️⃣ Everything on one timeline\n\nSwipe to see how PayReso keeps your invoices moving. Founding Pilot open: link in bio.\n\n#smallbusinessuk #invoicing #latepayment #cashflow #ukstartup #payreso",
-        "facebook": "Tired of chasing invoices by hand? PayReso sends branded invoices and polite automatic reminders, with a secure payment link in every reminder, and keeps everything on one timeline.\n\nSwipe through to see how it works. Founding Pilot places are open: payresoai.com"
+        "linkedin": "Chasing invoices by hand eats hours most small businesses don't have.\n\nHere's how PayReso's automatic reminders work:\n\n1. Send a branded invoice with your logo and business details.\n2. Polite reminders go out automatically around the due date.\n3. Each reminder links to the invoice, with bank details and the PDF.\n4. Every invoice, reminder and reply sits on one timeline.\n\nLess admin, a clear record, and more time for the actual work.\n\nWe're opening Founding Pilot places for UK businesses: payresoai.com\n\n#SmallBusiness #Invoicing #LatePayment #UKStartups",
+        "instagram": "Reminders that chase for you 🔔\n\n1️⃣ Branded invoice\n2️⃣ Automatic, polite reminders\n3️⃣ Invoice link in every reminder\n4️⃣ Everything on one timeline\n\nSwipe to see how PayReso keeps your invoices moving. Founding Pilot open: link in bio.\n\n#smallbusinessuk #invoicing #latepayment #cashflow #ukstartup #payreso",
+        "facebook": "Tired of chasing invoices by hand? PayReso sends branded invoices and polite automatic reminders, with a link to the invoice in every reminder, and keeps everything on one timeline.\n\nSwipe through to see how it works. Founding Pilot places are open: payresoai.com"
       }
     },
     {
