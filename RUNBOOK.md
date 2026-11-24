@@ -72,6 +72,10 @@ r.date = await prDate('TARGET', 10, 0, 'AM');   // throws unless the label reads
 r.blur = await prBlur();
 JSON.stringify(r)
 ```
+If prEditByNetwork fails with "chip not found", the editor opened with only one network selected
+(seen 24 Nov: only LinkedIn). Click the Facebook and Instagram icons at the top of the editor so all
+three are highlighted, then continue from `prEditByNetwork()`.
+
 Then take a screenshot and check: 3 network icons, the images in each network tab, the date
 button showing TARGET 10:00 AM, "Auto publish" on, and the button reading **Schedule 3**.
 Then `await prSchedule(3)`.

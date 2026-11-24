@@ -69,6 +69,7 @@ window.prNet = async function (net, text) {
 // Date picker must already be open (click the date button at the bottom of the editor).
 window.prDate = async function (iso, hour12, minute, ampm) {
   const pop = () => [...document.querySelectorAll('div')].filter(e => e.getClientRects().length && e.innerText && e.innerText.includes('Europe/London') && e.querySelector('select')).pop();
+  for (let i = 0; i < 10 && !pop(); i++) await prSleep(300);
   if (!pop()) throw new Error('date picker is not open');
   for (let i = 0; i < 13 && !pop().querySelector('.vc-day.id-' + iso); i++) {
     const n = pop().querySelector('.vc-next, .vc-arrow.is-right, button.vc-arrow:last-of-type');
