@@ -38,16 +38,23 @@
       }
     },
     {
-      "date": "2026-12-02", "type": "static", "pillar": "late-payment education",
-      "topic": "£11bn a year: the cost of late payment",
-      "bg_prompt": "Photo of a quiet UK high street at blue hour with independent shop fronts and warm window lights, slightly empty, navy blue colour grade, cinematic, no readable signage, no people in focus",
+      "date": "2026-12-02",
+      "type": "static",
+      "pillar": "late-payment education",
+      "topic": "Invoice before the Christmas shutdown",
+      "bg_prompt": "Photo of a tidy small business desk in December with a closed laptop, a mug and soft warm fairy lights blurred in the background, deep navy colour grade, cinematic, shallow depth of field, no readable text, no people",
       "slides": [
-        {"kind": "static", "tag": "The real cost", "headline": "Late payments cost UK businesses [£11bn a year.]", "sub": "Source: UK Government, Commercial Payments Bill overview (May 2026)"}
+        {
+          "kind": "static",
+          "tag": "December tip",
+          "headline": "Invoicing this month? [Send it before the shutdown.]",
+          "sub": "Many accounts teams slow down or close over Christmas. Get invoices in early."
+        }
       ],
       "captions": {
-        "linkedin": "£11 billion a year.\n\nThat's what late payments cost the UK economy, according to the government's Commercial Payments Bill overview (May 2026).\n\nBehind that number are small firms delaying hires, paying suppliers late themselves, and spending evenings chasing money they've already earned.\n\nWe're building PayReso to make chasing, documenting and resolving late payments simpler for UK businesses.\n\nFounding Pilot places are open: payresoai.com\n\n#LatePayment #SmallBusiness #UKEconomy #CashFlow",
-        "instagram": "£11bn. Every year. 💸\n\nThat's the cost of late payments to UK businesses (UK Government, May 2026).\n\nIf you've ever waited on an overdue invoice, you're far from alone. PayReso helps you chase, document and resolve late payments.\n\nFounding Pilot open: link in bio.\n\n#latepayment #smallbusinessuk #cashflow #ukbusiness #invoicing #payreso",
-        "facebook": "Late payments cost UK businesses £11bn a year (UK Government, Commercial Payments Bill overview, May 2026).\n\nPayReso is being built to help small businesses chase, document and resolve late payments. Join the Founding Pilot: payresoai.com"
+        "linkedin": "A quick December tip for UK small businesses.\n\nMany accounts teams run reduced hours, or close completely, between Christmas and New Year. An invoice that lands on 22 December can easily sit untouched until January.\n\nThree things that help:\n• Send December invoices as soon as the work is done\n• Ask your customer when their last payment run is before the break\n• Check the invoice is going to the right person in accounts\n\nPayReso sends branded invoices and automatic reminders for you, so you spend less time chasing: payresoai.com\n\n#SmallBusiness #CashFlow #Invoicing #UKBusiness",
+        "instagram": "Invoicing this month? 🎄\n\nMany accounts teams slow down or close over Christmas. An invoice sent on 22 Dec might not be looked at until January.\n\n✅ Invoice as soon as the work is done\n✅ Ask when their last payment run is before the break\n✅ Send it to the right person in accounts\n\nSave this one.\n\n#smallbusinessuk #cashflow #invoicing #freelanceuk #ukbusiness #payreso",
+        "facebook": "December tip: many accounts teams slow down or close over Christmas, so an invoice sent late in the month can wait until January.\n\nSend December invoices as soon as the work is done, ask your customer when their last payment run is before the break, and make sure it goes to the right person in accounts.\n\nPayReso sends branded invoices and automatic reminders for you: payresoai.com"
       }
     },
     {
