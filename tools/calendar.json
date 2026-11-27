@@ -2,37 +2,101 @@
   "note": "PayReso social calendar. One post a day at 10:00 Europe/London on Facebook, Instagram, LinkedIn. Carousels Mon/Tue/Thu/Sat, statics Wed/Fri/Sun. [brackets] = cyan accent in images. Captions are plain text.",
   "posts": [
     {
-      "date": "2026-11-30", "type": "carousel", "pillar": "late-payment education",
+      "date": "2026-11-30",
+      "type": "carousel",
+      "pillar": "late-payment education",
       "topic": "Your rights when an invoice is paid late",
       "bg_prompt": "Moody evening photo of a small UK joinery workshop, wooden workbench with tools and a stack of paper invoices under a warm desk lamp, deep navy blue colour grade, cinematic, shallow depth of field, no text, no people",
       "slides": [
-        {"kind": "cover", "tag": "Know your rights", "headline": "Paid late? The law is [on your side]", "sub": "4 rights every UK business has →"},
-        {"kind": "point", "num": "01", "title": "A default 30-day deadline", "body": "If no payment date was agreed, a business customer's payment is generally due 30 days after the invoice or delivery, whichever is later."},
-        {"kind": "point", "num": "02", "title": "Statutory interest", "body": "You can claim interest at 8% above the Bank of England base rate on late business-to-business invoices."},
-        {"kind": "point", "num": "03", "title": "Fixed compensation", "body": "£40 on debts under £1,000. £70 from £1,000 to £9,999.99. £100 on £10,000 or more."},
-        {"kind": "point", "num": "04", "title": "Reasonable recovery costs", "body": "If the fixed sum doesn't cover what you reasonably spent chasing the debt, you may be able to claim the difference."},
-        {"kind": "cta", "headline": "Know your rights. [Keep the record.]", "body": "PayReso keeps invoices, reminders and evidence in one timeline.", "button": "payresoai.com"}
+        {
+          "kind": "cover",
+          "tag": "Know your rights",
+          "headline": "Paid late? The law is [on your side]",
+          "sub": "4 rights every UK business has →"
+        },
+        {
+          "kind": "point",
+          "num": "01",
+          "title": "A default 30-day deadline",
+          "body": "If no payment date was agreed, a business customer's payment is generally due 30 days after the invoice or delivery, whichever is later."
+        },
+        {
+          "kind": "point",
+          "num": "02",
+          "title": "Statutory interest",
+          "body": "You can claim interest at 8% above the Bank of England base rate on late business-to-business invoices."
+        },
+        {
+          "kind": "point",
+          "num": "03",
+          "title": "Fixed compensation",
+          "body": "£40 on debts under £1,000. £70 from £1,000 to £9,999.99. £100 on £10,000 or more."
+        },
+        {
+          "kind": "point",
+          "num": "04",
+          "title": "Reasonable recovery costs",
+          "body": "If the fixed sum doesn't cover what you reasonably spent chasing the debt, you may be able to claim the difference."
+        },
+        {
+          "kind": "cta",
+          "headline": "Know your rights. [Keep the record.]",
+          "body": "PayReso keeps invoices, reminders and evidence in one timeline.",
+          "button": "payresoai.com"
+        }
       ],
       "captions": {
-        "linkedin": "Paid late by a business customer? UK law gives you more than a polite reminder.\n\nUnder the Late Payment of Commercial Debts (Interest) Act 1998:\n\n1. If no date was agreed, payment is generally due 30 days after the invoice or delivery.\n2. You can claim statutory interest at 8% above the Bank of England base rate.\n3. You can add fixed compensation: £40 (under £1,000), £70 (£1,000–£9,999.99) or £100 (£10,000+).\n4. You may be able to claim reasonable extra recovery costs.\n\nKnowing your rights is step one. Step two is having a clean record of what you sent and when.\n\nPayReso helps UK businesses chase, document and resolve late payments. Founding Pilot places are open at payresoai.com.\n\nThis is general information, not legal advice.\n\n#LatePayment #SmallBusiness #UKBusiness #CashFlow",
+        "linkedin": "Paid late by a business customer? UK law gives you more than a polite reminder.\n\nMost small business owners I speak to don't know these four rights under the Late Payment of Commercial Debts (Interest) Act 1998:\n\n1. If no date was agreed, payment is generally due 30 days after the invoice or delivery.\n2. You can claim statutory interest at 8% above the Bank of England base rate.\n3. You can add fixed compensation: £40 (under £1,000), £70 (£1,000–£9,999.99) or £100 (£10,000+).\n4. You may be able to claim reasonable extra recovery costs.\n\nKnowing your rights is step one. Step two is a clean record of what you sent and when. That's the part PayReso handles for UK businesses.\n\nHave you ever added late payment interest to an overdue invoice, or does it feel too awkward with a customer you want to keep?\n\nGeneral information, not legal advice.",
         "instagram": "Paid late? The law is on your side 👇\n\n✅ 30-day default deadline if nothing was agreed\n✅ Statutory interest: 8% above the Bank of England base rate\n✅ Fixed compensation: £40 / £70 / £100\n✅ Reasonable recovery costs\n\nSwipe for the details, and save this for the next overdue invoice.\n\nGeneral info, not legal advice. Founding Pilot open: link in bio.\n\n#latepayment #smallbusinessuk #ukbusiness #cashflow #invoicing #freelanceuk #payreso",
         "facebook": "Paid late by another business? UK law gives you rights: a 30-day default deadline, statutory interest at 8% above the Bank of England base rate, fixed compensation (£40 / £70 / £100) and reasonable recovery costs.\n\nSwipe through for the details. General information, not legal advice.\n\nPayReso helps you chase, document and resolve late payments. Join the Founding Pilot: payresoai.com"
       }
     },
     {
-      "date": "2026-12-01", "type": "carousel", "pillar": "product features",
+      "date": "2026-12-01",
+      "type": "carousel",
+      "pillar": "product features",
       "topic": "How PayReso reminders work",
       "bg_prompt": "Close-up photo of a laptop on a tidy office desk at dusk showing a blurred calendar interface, coffee cup, notebook, deep navy and electric blue colour grade, cinematic, no readable text, no people",
       "slides": [
-        {"kind": "cover", "tag": "Inside PayReso", "headline": "Reminders that [chase for you]", "sub": "How automatic reminders work →"},
-        {"kind": "point", "num": "01", "title": "Send a branded invoice", "body": "Your logo and business details on the invoice, the PDF and the customer link."},
-        {"kind": "point", "num": "02", "title": "Reminders go out on time", "body": "Polite, automatic reminders before and after the due date, so nothing slips."},
-        {"kind": "point", "num": "03", "title": "Easy to act on", "body": "Each reminder links to the invoice, with bank details, the PDF and quick reply buttons."},
-        {"kind": "point", "num": "04", "title": "Everything on one timeline", "body": "Every invoice, reminder and reply is logged, so you always know what was sent and when."},
-        {"kind": "cta", "headline": "Stop chasing by hand. [Start with PayReso.]", "body": "Founding Pilot places are open now.", "button": "payresoai.com"}
+        {
+          "kind": "cover",
+          "tag": "Inside PayReso",
+          "headline": "Reminders that [chase for you]",
+          "sub": "How automatic reminders work →"
+        },
+        {
+          "kind": "point",
+          "num": "01",
+          "title": "Send a branded invoice",
+          "body": "Your logo and business details on the invoice, the PDF and the customer link."
+        },
+        {
+          "kind": "point",
+          "num": "02",
+          "title": "Reminders go out on time",
+          "body": "Polite, automatic reminders before and after the due date, so nothing slips."
+        },
+        {
+          "kind": "point",
+          "num": "03",
+          "title": "Easy to act on",
+          "body": "Each reminder links to the invoice, with bank details, the PDF and quick reply buttons."
+        },
+        {
+          "kind": "point",
+          "num": "04",
+          "title": "Everything on one timeline",
+          "body": "Every invoice, reminder and reply is logged, so you always know what was sent and when."
+        },
+        {
+          "kind": "cta",
+          "headline": "Stop chasing by hand. [Start with PayReso.]",
+          "body": "Founding Pilot places are open now.",
+          "button": "payresoai.com"
+        }
       ],
       "captions": {
-        "linkedin": "Chasing invoices by hand eats hours most small businesses don't have.\n\nHere's how PayReso's automatic reminders work:\n\n1. Send a branded invoice with your logo and business details.\n2. Polite reminders go out automatically around the due date.\n3. Each reminder links to the invoice, with bank details and the PDF.\n4. Every invoice, reminder and reply sits on one timeline.\n\nLess admin, a clear record, and more time for the actual work.\n\nWe're opening Founding Pilot places for UK businesses: payresoai.com\n\n#SmallBusiness #Invoicing #LatePayment #UKStartups",
+        "linkedin": "Chasing invoices by hand eats hours most small businesses don't have.\n\nHere's how automatic payment reminders work in PayReso:\n\n1. Send a branded invoice with your logo and business details.\n2. Polite reminders go out automatically around the due date.\n3. Each reminder links to the invoice, with bank details and the PDF.\n4. Every invoice, reminder and reply sits on one timeline.\n\nLess credit control admin, a clear record, and more time for the actual work.\n\nHow many hours a month does your business spend chasing late payments?",
         "instagram": "Reminders that chase for you 🔔\n\n1️⃣ Branded invoice\n2️⃣ Automatic, polite reminders\n3️⃣ Invoice link in every reminder\n4️⃣ Everything on one timeline\n\nSwipe to see how PayReso keeps your invoices moving. Founding Pilot open: link in bio.\n\n#smallbusinessuk #invoicing #latepayment #cashflow #ukstartup #payreso",
         "facebook": "Tired of chasing invoices by hand? PayReso sends branded invoices and polite automatic reminders, with a link to the invoice in every reminder, and keeps everything on one timeline.\n\nSwipe through to see how it works. Founding Pilot places are open: payresoai.com"
       }
@@ -52,180 +116,407 @@
         }
       ],
       "captions": {
-        "linkedin": "A quick December tip for UK small businesses.\n\nMany accounts teams run reduced hours, or close completely, between Christmas and New Year. An invoice that lands on 22 December can easily sit untouched until January.\n\nThree things that help:\n• Send December invoices as soon as the work is done\n• Ask your customer when their last payment run is before the break\n• Check the invoice is going to the right person in accounts\n\nPayReso sends branded invoices and automatic reminders for you, so you spend less time chasing: payresoai.com\n\n#SmallBusiness #CashFlow #Invoicing #UKBusiness",
+        "linkedin": "An invoice sent on 22 December can easily sit untouched until mid-January.\n\nMany accounts teams run reduced hours, or close completely, between Christmas and New Year. For UK small businesses, that gap hits cash flow hard.\n\nThree things that help:\n• Send December invoices as soon as the work is done\n• Ask your customer when their last payment run is before the break\n• Check the invoice is going to the right person in accounts\n\nWhen do you send your last invoices before Christmas?",
         "instagram": "Invoicing this month? 🎄\n\nMany accounts teams slow down or close over Christmas. An invoice sent on 22 Dec might not be looked at until January.\n\n✅ Invoice as soon as the work is done\n✅ Ask when their last payment run is before the break\n✅ Send it to the right person in accounts\n\nSave this one.\n\n#smallbusinessuk #cashflow #invoicing #freelanceuk #ukbusiness #payreso",
         "facebook": "December tip: many accounts teams slow down or close over Christmas, so an invoice sent late in the month can wait until January.\n\nSend December invoices as soon as the work is done, ask your customer when their last payment run is before the break, and make sure it goes to the right person in accounts.\n\nPayReso sends branded invoices and automatic reminders for you: payresoai.com"
       }
     },
     {
-      "date": "2026-12-03", "type": "carousel", "pillar": "founder story",
+      "date": "2026-12-03",
+      "type": "carousel",
+      "pillar": "founder story",
       "topic": "Why I'm building PayReso",
       "bg_prompt": "Photo of a founder's desk late at night, laptop glow, notebook with sketches, mug, window with city lights of a small English town, deep navy colour grade, cinematic, no readable text, no faces",
       "slides": [
-        {"kind": "cover", "tag": "Founder story", "headline": "Why I'm building [PayReso]", "sub": "A note from our founder →"},
-        {"kind": "point", "num": "01", "title": "The work was done", "body": "I kept meeting business owners who'd delivered the work, sent the invoice, and then waited weeks or months to be paid."},
-        {"kind": "point", "num": "02", "title": "Chasing is a second job", "body": "Emails, calls, spreadsheets, screenshots. Hours spent chasing money that was already earned."},
-        {"kind": "point", "num": "03", "title": "The records were scattered", "body": "When a payment became a dispute, the evidence was spread across inboxes, phones and paper."},
-        {"kind": "point", "num": "04", "title": "So we're building one place", "body": "PayReso brings invoices, reminders, messages and evidence together, so chasing payment is calmer and clearer."},
-        {"kind": "cta", "headline": "Help us shape it. [Join the Founding Pilot.]", "body": "We're working closely with our first UK businesses.", "button": "payresoai.com"}
+        {
+          "kind": "cover",
+          "tag": "Founder story",
+          "headline": "Why I'm building [PayReso]",
+          "sub": "A note from our founder →"
+        },
+        {
+          "kind": "point",
+          "num": "01",
+          "title": "The work was done",
+          "body": "I kept meeting business owners who'd delivered the work, sent the invoice, and then waited weeks or months to be paid."
+        },
+        {
+          "kind": "point",
+          "num": "02",
+          "title": "Chasing is a second job",
+          "body": "Emails, calls, spreadsheets, screenshots. Hours spent chasing money that was already earned."
+        },
+        {
+          "kind": "point",
+          "num": "03",
+          "title": "The records were scattered",
+          "body": "When a payment became a dispute, the evidence was spread across inboxes, phones and paper."
+        },
+        {
+          "kind": "point",
+          "num": "04",
+          "title": "So we're building one place",
+          "body": "PayReso brings invoices, reminders, messages and evidence together, so chasing payment is calmer and clearer."
+        },
+        {
+          "kind": "cta",
+          "headline": "Help us shape it. [Join the Founding Pilot.]",
+          "body": "We're working closely with our first UK businesses.",
+          "button": "payresoai.com"
+        }
       ],
       "captions": {
-        "linkedin": "Why I'm building PayReso.\n\nAgain and again, I met business owners who had done the work, sent the invoice, and then waited weeks or months to be paid.\n\nChasing became a second job: emails, calls, spreadsheets, screenshots. And when a late payment turned into a dispute, the evidence was scattered across inboxes and phones.\n\nPayReso brings invoices, reminders, messages and evidence into one place, so chasing payment is calmer and clearer.\n\nWe're working closely with our first UK businesses through the Founding Pilot. If late payment is a headache for you, I'd love to hear from you: payresoai.com\n\n— Godwin, founder\n\n#FounderStory #SmallBusiness #LatePayment #UKStartups",
+        "linkedin": "Why I'm building PayReso.\n\nAgain and again, I met UK business owners who had done the work, sent the invoice, and then waited weeks or months to be paid.\n\nChasing became a second job: emails, calls, spreadsheets, screenshots. And when a late payment turned into a dispute, the evidence was scattered across inboxes and phones.\n\nPayReso brings invoices, reminders, messages and evidence into one place, so chasing payment is calmer and clearer.\n\nWe're working closely with our first businesses through the Founding Pilot.\n\nWhat's the longest you've waited to be paid for work you'd already delivered?\n\n— Godwin, founder",
         "instagram": "Why we're building PayReso 💙\n\nToo many business owners do the work, send the invoice… and wait. Chasing becomes a second job, and the records end up everywhere.\n\nPayReso brings invoices, reminders and evidence into one place.\n\nSwipe for the story. Founding Pilot open: link in bio.\n\n#founderstory #smallbusinessuk #ukstartup #latepayment #buildinpublic #payreso",
         "facebook": "Why we're building PayReso: too many business owners do the work, send the invoice, and then wait weeks to be paid, with chasing turning into a second job.\n\nPayReso brings invoices, reminders, messages and evidence into one place. Swipe for the story, and join the Founding Pilot at payresoai.com"
       }
     },
     {
-      "date": "2026-12-04", "type": "static", "pillar": "late-payment education",
+      "date": "2026-12-04",
+      "type": "static",
+      "pillar": "late-payment education",
       "topic": "Fixed compensation amounts",
       "bg_prompt": "Photo of a neat stack of paper invoices and a calculator on a dark wooden desk, soft side light, deep navy colour grade, cinematic, shallow depth of field, no readable text",
       "slides": [
-        {"kind": "static", "tag": "Did you know?", "headline": "Late B2B invoice? You can claim [£40, £70 or £100] on top.", "sub": "Fixed compensation under the Late Payment of Commercial Debts (Interest) Act 1998"}
+        {
+          "kind": "static",
+          "tag": "Did you know?",
+          "headline": "Late B2B invoice? You can claim [£40, £70 or £100] on top.",
+          "sub": "Fixed compensation under the Late Payment of Commercial Debts (Interest) Act 1998"
+        }
       ],
       "captions": {
-        "linkedin": "Many UK businesses don't know this: when a business customer pays late, you can usually claim fixed compensation on top of the debt.\n\n• £40 for debts under £1,000\n• £70 for £1,000 to £9,999.99\n• £100 for £10,000 or more\n\nThat's alongside statutory interest at 8% above the Bank of England base rate.\n\nGeneral information, not legal advice.\n\nPayReso helps you chase, document and resolve late payments: payresoai.com\n\n#LatePayment #SmallBusiness #UKBusiness #Invoicing",
+        "linkedin": "Paid late by a business customer? You can usually claim fixed compensation on top of the debt.\n\nMost UK small businesses never do. The amounts are set by law:\n\n• £40 for debts under £1,000\n• £70 for £1,000 to £9,999.99\n• £100 for £10,000 or more\n\nThat's alongside statutory interest at 8% above the Bank of England base rate.\n\nDid you know about late payment compensation before reading this?\n\nGeneral information, not legal advice.",
         "instagram": "Did you know? 🤔\n\nWhen a business pays you late, you can usually claim fixed compensation on top:\n💷 £40 under £1,000\n💷 £70 for £1,000–£9,999.99\n💷 £100 for £10,000+\n\nSave this one. General info, not legal advice.\n\n#latepayment #smallbusinessuk #invoicing #cashflow #freelanceuk #payreso",
         "facebook": "Did you know? When another business pays you late, you can usually claim fixed compensation on top of the debt: £40 (under £1,000), £70 (£1,000–£9,999.99) or £100 (£10,000+).\n\nGeneral information, not legal advice. PayReso helps you chase and resolve late payments: payresoai.com"
       }
     },
     {
-      "date": "2026-12-05", "type": "carousel", "pillar": "late-payment education",
+      "date": "2026-12-05",
+      "type": "carousel",
+      "pillar": "late-payment education",
       "topic": "A calm, firm reminder sequence",
       "bg_prompt": "Photo of a smartphone face down next to a laptop and printed invoice on a desk by a rainy window, evening, deep navy blue colour grade, cinematic, no readable text, no people",
       "slides": [
-        {"kind": "cover", "tag": "Chasing playbook", "headline": "A reminder sequence that stays [calm and firm]", "sub": "5 steps from due date to next steps →"},
-        {"kind": "point", "num": "01", "title": "Before it's due", "body": "A friendly heads-up a few days early, with the invoice and how to pay attached."},
-        {"kind": "point", "num": "02", "title": "On the due date", "body": "A short, polite note that payment is due today."},
-        {"kind": "point", "num": "03", "title": "A week overdue", "body": "Restate the amount, the due date and the invoice number. Ask if anything is holding it up."},
-        {"kind": "point", "num": "04", "title": "Still unpaid?", "body": "A firmer message that mentions statutory interest and compensation, and a clear date to reply by."},
-        {"kind": "cta", "headline": "Keep every step [on record.]", "body": "PayReso logs each reminder on one timeline.", "button": "payresoai.com"}
+        {
+          "kind": "cover",
+          "tag": "Chasing playbook",
+          "headline": "A reminder sequence that stays [calm and firm]",
+          "sub": "5 steps from due date to next steps →"
+        },
+        {
+          "kind": "point",
+          "num": "01",
+          "title": "Before it's due",
+          "body": "A friendly heads-up a few days early, with the invoice and how to pay attached."
+        },
+        {
+          "kind": "point",
+          "num": "02",
+          "title": "On the due date",
+          "body": "A short, polite note that payment is due today."
+        },
+        {
+          "kind": "point",
+          "num": "03",
+          "title": "A week overdue",
+          "body": "Restate the amount, the due date and the invoice number. Ask if anything is holding it up."
+        },
+        {
+          "kind": "point",
+          "num": "04",
+          "title": "Still unpaid?",
+          "body": "A firmer message that mentions statutory interest and compensation, and a clear date to reply by."
+        },
+        {
+          "kind": "cta",
+          "headline": "Keep every step [on record.]",
+          "body": "PayReso logs each reminder on one timeline.",
+          "button": "payresoai.com"
+        }
       ],
       "captions": {
-        "linkedin": "Chasing payment doesn't have to be awkward. A simple sequence keeps it calm and firm:\n\n1. A few days before: a friendly heads-up with the invoice attached.\n2. On the due date: a short, polite note.\n3. A week overdue: restate the amount, date and invoice number, and ask if anything is holding it up.\n4. Still unpaid: a firmer message that mentions statutory interest and compensation, with a reply-by date.\n\nWhatever happens next, a clear record of each step helps.\n\nPayReso sends reminders and logs every step on one timeline: payresoai.com\n\n#SmallBusiness #LatePayment #CreditControl #CashFlow",
+        "linkedin": "Chasing payment doesn't have to be awkward. A simple sequence keeps it calm and firm.\n\n1. A few days before: a friendly heads-up with the invoice attached.\n2. On the due date: a short, polite note.\n3. A week overdue: restate the amount, date and invoice number, and ask if anything is holding it up.\n4. Still unpaid: a firmer message that mentions statutory interest and compensation, with a reply-by date.\n\nWhatever happens next, a clear record of each step helps. PayReso sends the reminders and logs every step on one timeline.\n\nAt which step do your late payers usually pay up?",
         "instagram": "How to chase payment without the awkwardness 📩\n\n1️⃣ Heads-up before it's due\n2️⃣ Polite note on the day\n3️⃣ Clear follow-up a week later\n4️⃣ Firmer message with a reply-by date\n\nSave this for next time. Founding Pilot open: link in bio.\n\n#smallbusinessuk #latepayment #invoicing #cashflow #freelancetips #payreso",
         "facebook": "Chasing payment without the awkwardness: a heads-up before it's due, a polite note on the day, a clear follow-up a week later, then a firmer message with a reply-by date.\n\nSwipe for the full sequence. PayReso logs every step for you: payresoai.com"
       }
     },
     {
-      "date": "2026-12-06", "type": "static", "pillar": "founding pilot",
+      "date": "2026-12-06",
+      "type": "static",
+      "pillar": "founding pilot",
       "topic": "Founding Pilot places open",
       "bg_prompt": "Photo of a bright modern small business workspace in the UK in early morning, plants, laptop, mugs, large window, navy and blue colour grade, optimistic, cinematic, no readable text, no faces",
       "slides": [
-        {"kind": "static", "tag": "Founding Pilot", "headline": "Be one of the first UK businesses on [PayReso.]", "sub": "Founding Pilot places are open now at payresoai.com"}
+        {
+          "kind": "static",
+          "tag": "Founding Pilot",
+          "headline": "Be one of the first UK businesses on [PayReso.]",
+          "sub": "Founding Pilot places are open now at payresoai.com"
+        }
       ],
       "captions": {
-        "linkedin": "We're opening Founding Pilot places for UK businesses.\n\nIf late payments cost you time, cash flow or sleep, we'd like you to help shape PayReso: branded invoices, automatic reminders and one clear timeline for every invoice.\n\nFounding Pilot members get founding pricing and a direct line to our team.\n\nFind out more: payresoai.com\n\n#FoundingPilot #SmallBusiness #UKStartups #LatePayment",
+        "linkedin": "Late payments cost UK small businesses time, cash flow and sleep. We want business owners to help shape the fix.\n\nWe're opening Founding Pilot places for PayReso: branded invoices, automatic payment reminders and one clear timeline for every invoice.\n\nFounding Pilot members get founding pricing and a direct line to our team.\n\nIf you run a UK business that invoices other businesses, what's the one thing you'd want a late payment tool to do?",
         "instagram": "Founding Pilot places are open 🚀\n\nBe one of the first UK businesses on PayReso, with founding pricing and a direct line to our team.\n\nLink in bio.\n\n#ukstartup #smallbusinessuk #latepayment #invoicing #earlyaccess #payreso",
         "facebook": "Founding Pilot places are open! Be one of the first UK businesses on PayReso, with founding pricing and a direct line to our team. Find out more at payresoai.com"
       }
     },
     {
-      "date": "2026-12-07", "type": "carousel", "pillar": "late-payment education",
+      "date": "2026-12-07",
+      "type": "carousel",
+      "pillar": "late-payment education",
       "topic": "What to put on every invoice",
       "bg_prompt": "Overhead photo of a clean desk with a blank printed invoice template, pen, laptop and coffee, soft light, deep navy blue colour grade, minimal, no readable text",
       "slides": [
-        {"kind": "cover", "tag": "Invoice checklist", "headline": "5 things every invoice [should include]", "sub": "Fewer questions, faster payment →"},
-        {"kind": "point", "num": "01", "title": "A unique invoice number", "body": "So you and your customer can always refer to the same document."},
-        {"kind": "point", "num": "02", "title": "Clear dates", "body": "The invoice date, the supply date and the payment due date."},
-        {"kind": "point", "num": "03", "title": "What it's for", "body": "A plain description of the work or goods, with quantities and prices."},
-        {"kind": "point", "num": "04", "title": "How to pay", "body": "Bank details or a payment link, plus who to contact with questions."},
-        {"kind": "cta", "headline": "Branded invoices, [done for you.]", "body": "PayReso puts your logo and payment link on every invoice.", "button": "payresoai.com"}
+        {
+          "kind": "cover",
+          "tag": "Invoice checklist",
+          "headline": "5 things every invoice [should include]",
+          "sub": "Fewer questions, faster payment →"
+        },
+        {
+          "kind": "point",
+          "num": "01",
+          "title": "A unique invoice number",
+          "body": "So you and your customer can always refer to the same document."
+        },
+        {
+          "kind": "point",
+          "num": "02",
+          "title": "Clear dates",
+          "body": "The invoice date, the supply date and the payment due date."
+        },
+        {
+          "kind": "point",
+          "num": "03",
+          "title": "What it's for",
+          "body": "A plain description of the work or goods, with quantities and prices."
+        },
+        {
+          "kind": "point",
+          "num": "04",
+          "title": "How to pay",
+          "body": "Your bank details, plus who to contact with questions."
+        },
+        {
+          "kind": "cta",
+          "headline": "Branded invoices, [done for you.]",
+          "body": "PayReso puts your logo and bank details on every invoice.",
+          "button": "payresoai.com"
+        }
       ],
       "captions": {
-        "linkedin": "Unclear invoices give slow payers an easy excuse. Make sure every invoice has:\n\n1. A unique invoice number\n2. The invoice date, supply date and due date\n3. A plain description of the work, with quantities and prices\n4. How to pay, and who to contact with questions\n\nIf you're VAT registered, there are extra details HMRC requires, so check gov.uk.\n\nPayReso creates branded invoices with a payment link built in: payresoai.com\n\n#Invoicing #SmallBusiness #CashFlow #UKBusiness",
+        "linkedin": "Unclear invoices give slow payers an easy excuse to wait.\n\nEvery invoice your business sends should have:\n\n1. A unique invoice number\n2. The invoice date, supply date and due date\n3. A plain description of the work, with quantities and prices\n4. How to pay, and who to contact with questions\n\nIf you're VAT registered, HMRC requires extra details, so check gov.uk.\n\nPayReso builds these into every branded invoice, with your bank details and a PDF.\n\nWhat's the most common excuse you hear for a late payment?",
         "instagram": "Your invoice checklist ✅\n\n☑️ Unique invoice number\n☑️ Clear dates (incl. due date)\n☑️ What it's for\n☑️ How to pay\n\nClear invoices get paid faster. Save this! Founding Pilot open: link in bio.\n\n#invoicing #smallbusinessuk #freelanceuk #cashflow #businesstips #payreso",
-        "facebook": "Clear invoices get paid faster. Every invoice should have a unique number, clear dates including the due date, a plain description of the work, and how to pay.\n\nPayReso creates branded invoices with a payment link built in: payresoai.com"
+        "facebook": "Clear invoices get paid faster. Every invoice should have a unique number, clear dates including the due date, a plain description of the work, and how to pay.\n\nPayReso creates branded invoices with your bank details and a PDF built in: payresoai.com"
       }
     },
     {
-      "date": "2026-12-08", "type": "carousel", "pillar": "product features",
+      "date": "2026-12-08",
+      "type": "carousel",
+      "pillar": "product features",
       "topic": "Meet Reso, the PayReso assistant",
       "bg_prompt": "Abstract photo of soft glowing blue light trails and bokeh over a dark navy background, calm and futuristic, cinematic, no text",
       "slides": [
-        {"kind": "cover", "tag": "Meet Reso", "headline": "Your assistant for [getting paid]", "sub": "What you can ask Reso →"},
-        {"kind": "point", "num": "01", "title": "What's overdue?", "body": "Ask Reso which invoices are late and by how much."},
-        {"kind": "point", "num": "02", "title": "What happened so far?", "body": "Reso pulls the history together from your invoices, reminders and messages."},
-        {"kind": "point", "num": "03", "title": "Help me reply", "body": "Reso can suggest a clear, professional reply for you to check and send."},
-        {"kind": "point", "num": "04", "title": "You stay in control", "body": "Reso suggests. You decide. Nothing escalates without you."},
-        {"kind": "cta", "headline": "Ask Reso. [Inside PayReso.]", "body": "Join the Founding Pilot to try it first.", "button": "payresoai.com"}
+        {
+          "kind": "cover",
+          "tag": "Meet Reso",
+          "headline": "Your assistant for [getting paid]",
+          "sub": "What you can ask Reso →"
+        },
+        {
+          "kind": "point",
+          "num": "01",
+          "title": "What's overdue?",
+          "body": "Ask Reso which invoices are late and by how much."
+        },
+        {
+          "kind": "point",
+          "num": "02",
+          "title": "What happened so far?",
+          "body": "Reso pulls the history together from your invoices, reminders and messages."
+        },
+        {
+          "kind": "point",
+          "num": "03",
+          "title": "Help me reply",
+          "body": "Reso can suggest a clear, professional reply for you to check and send."
+        },
+        {
+          "kind": "point",
+          "num": "04",
+          "title": "You stay in control",
+          "body": "Reso suggests. You decide. Nothing escalates without you."
+        },
+        {
+          "kind": "cta",
+          "headline": "Ask Reso. [Inside PayReso.]",
+          "body": "Join the Founding Pilot to try it first.",
+          "button": "payresoai.com"
+        }
       ],
       "captions": {
-        "linkedin": "Meet Reso, the assistant inside PayReso.\n\nAsk it:\n• Which invoices are overdue, and by how much?\n• What's happened on this account so far?\n• Can you help me write a clear reply?\n\nReso suggests; you decide. Nothing escalates without you.\n\nFounding Pilot places are open: payresoai.com\n\n#AI #SmallBusiness #Invoicing #UKStartups",
+        "linkedin": "Meet Reso, the assistant inside PayReso.\n\nIt helps UK small businesses stay on top of invoices without digging through emails. Ask it:\n• Which invoices are overdue, and by how much?\n• What's happened on this account so far?\n• Can you help me write a clear reply?\n\nReso suggests; you decide. Nothing escalates without you.\n\nWould you trust an AI assistant to draft your payment chasers, if you approve every message?",
         "instagram": "Meet Reso 👋 the assistant inside PayReso.\n\nAsk what's overdue, get the full history in seconds, and get help drafting a clear reply. You stay in control.\n\nSwipe to see more. Founding Pilot open: link in bio.\n\n#ai #smallbusinessuk #invoicing #ukstartup #productivity #payreso",
         "facebook": "Meet Reso, the assistant inside PayReso. Ask what's overdue, see the full history of an account, and get help drafting a clear reply. Reso suggests; you decide.\n\nJoin the Founding Pilot: payresoai.com"
       }
     },
     {
-      "date": "2026-12-09", "type": "static", "pillar": "late-payment education",
+      "date": "2026-12-09",
+      "type": "static",
+      "pillar": "late-payment education",
       "topic": "Commercial Payments Bill in Parliament",
       "bg_prompt": "Photo of Westminster at blue hour seen across the river Thames, lights reflecting on water, deep navy colour grade, cinematic, no text, no people",
       "slides": [
-        {"kind": "static", "tag": "UK late payment reform", "headline": "New late-payment rules are [going through Parliament.]", "sub": "The Commercial Payments Bill is proposed, not yet law."}
+        {
+          "kind": "static",
+          "tag": "UK late payment reform",
+          "headline": "New late-payment rules are [going through Parliament.]",
+          "sub": "The Commercial Payments Bill is proposed, not yet law."
+        }
       ],
       "captions": {
-        "linkedin": "The Commercial Payments Bill is making its way through Parliament. It has passed the House of Lords and is now in the House of Commons.\n\nIt's proposed, not law yet, but it's aimed squarely at late payment between businesses. We'll share plain-English updates as it progresses.\n\nIn the meantime, your existing rights under the Late Payment of Commercial Debts (Interest) Act 1998 still apply.\n\nGeneral information, not legal advice. payresoai.com\n\n#CommercialPaymentsBill #LatePayment #SmallBusiness #UKPolicy",
+        "linkedin": "The Commercial Payments Bill is aimed squarely at late payment between businesses. Here's where it stands.\n\nIt has passed the House of Lords and is now in the House of Commons. It's proposed, not law yet. We'll share plain-English updates as it progresses.\n\nIn the meantime, your existing rights under the Late Payment of Commercial Debts (Interest) Act 1998 still apply to UK businesses today.\n\nWhat would you most like new late payment rules to change?\n\nGeneral information, not legal advice.",
         "instagram": "New late-payment rules are on the way 🏛️\n\nThe Commercial Payments Bill has passed the Lords and is now in the Commons. It's proposed, not law yet. Follow us for plain-English updates.\n\nGeneral info, not legal advice.\n\n#latepayment #smallbusinessuk #ukbusiness #ukpolitics #cashflow #payreso",
         "facebook": "The Commercial Payments Bill, aimed at late payment between businesses, has passed the House of Lords and is now in the Commons. It's proposed, not yet law. Follow PayReso for plain-English updates."
       }
     },
     {
-      "date": "2026-12-10", "type": "carousel", "pillar": "late-payment education",
+      "date": "2026-12-10",
+      "type": "carousel",
+      "pillar": "late-payment education",
       "topic": "Keep evidence from day one",
       "bg_prompt": "Photo of a tidy filing drawer with labelled folders and a laptop beside it on a desk, low warm light, deep navy colour grade, cinematic, no readable text",
       "slides": [
-        {"kind": "cover", "tag": "Protect yourself", "headline": "Keep the evidence [from day one]", "sub": "What to save on every job →"},
-        {"kind": "point", "num": "01", "title": "The agreement", "body": "Quote, purchase order or contract, including the agreed payment terms."},
-        {"kind": "point", "num": "02", "title": "Proof of delivery", "body": "Sign-off emails, delivery notes, photos of finished work."},
-        {"kind": "point", "num": "03", "title": "Every invoice and reminder", "body": "With dates, so you can show exactly what was sent and when."},
-        {"kind": "point", "num": "04", "title": "Replies and promises", "body": "Any \"we'll pay Friday\" message. Save it, with the date."},
-        {"kind": "cta", "headline": "One timeline. [All your evidence.]", "body": "PayReso keeps invoices, reminders and evidence together.", "button": "payresoai.com"}
+        {
+          "kind": "cover",
+          "tag": "Protect yourself",
+          "headline": "Keep the evidence [from day one]",
+          "sub": "What to save on every job →"
+        },
+        {
+          "kind": "point",
+          "num": "01",
+          "title": "The agreement",
+          "body": "Quote, purchase order or contract, including the agreed payment terms."
+        },
+        {
+          "kind": "point",
+          "num": "02",
+          "title": "Proof of delivery",
+          "body": "Sign-off emails, delivery notes, photos of finished work."
+        },
+        {
+          "kind": "point",
+          "num": "03",
+          "title": "Every invoice and reminder",
+          "body": "With dates, so you can show exactly what was sent and when."
+        },
+        {
+          "kind": "point",
+          "num": "04",
+          "title": "Replies and promises",
+          "body": "Any \"we'll pay Friday\" message. Save it, with the date."
+        },
+        {
+          "kind": "cta",
+          "headline": "One timeline. [All your evidence.]",
+          "body": "PayReso keeps invoices, reminders and evidence together.",
+          "button": "payresoai.com"
+        }
       ],
       "captions": {
-        "linkedin": "If a late payment turns into a dispute, the business with the clearest records is in the strongest position.\n\nSave these on every job:\n1. The agreement and payment terms\n2. Proof of delivery or sign-off\n3. Every invoice and reminder, with dates\n4. Replies and payment promises\n\nPayReso keeps invoices, reminders, messages and evidence on one timeline: payresoai.com\n\n#SmallBusiness #LatePayment #RecordKeeping #UKBusiness",
+        "linkedin": "If a late payment turns into a dispute, the business with the clearest records is in the strongest position.\n\nSave these on every job:\n1. The agreement and payment terms\n2. Proof of delivery or sign-off\n3. Every invoice and reminder, with dates\n4. Replies and payment promises\n\nPayReso keeps invoices, reminders, messages and evidence on one timeline for UK small businesses.\n\nWhere do your payment records live today: email, spreadsheets, or your accounting software?",
         "instagram": "Keep the evidence from day one 🗂️\n\n📄 The agreement\n📦 Proof of delivery\n🧾 Every invoice & reminder\n💬 Replies and promises\n\nSave this checklist. Founding Pilot open: link in bio.\n\n#smallbusinessuk #latepayment #businesstips #freelanceuk #invoicing #payreso",
         "facebook": "If a late payment becomes a dispute, clear records matter. Save the agreement, proof of delivery, every invoice and reminder, and any replies or payment promises.\n\nPayReso keeps it all on one timeline: payresoai.com"
       }
     },
     {
-      "date": "2026-12-11", "type": "static", "pillar": "late-payment education",
+      "date": "2026-12-11",
+      "type": "static",
+      "pillar": "late-payment education",
       "topic": "38 businesses close a day",
       "bg_prompt": "Photo of a closed small shop front in a UK town at dusk with shutters half down, moody, navy blue colour grade, cinematic, no readable signage, no people",
       "slides": [
-        {"kind": "static", "tag": "Why it matters", "headline": "Late payment closes [38 UK businesses a day.]", "sub": "Source: UK Government, Commercial Payments Bill overview (May 2026)"}
+        {
+          "kind": "static",
+          "tag": "Why it matters",
+          "headline": "Late payment closes [38 UK businesses a day.]",
+          "sub": "Source: UK Government, Commercial Payments Bill overview (May 2026)"
+        }
       ],
       "captions": {
-        "linkedin": "38 UK businesses close every day because of late payment (UK Government, Commercial Payments Bill overview, May 2026).\n\nThese are businesses that did the work and didn't get paid in time.\n\nThat's why we're building PayReso: to help UK businesses chase, document and resolve late payments before they become a crisis.\n\nFounding Pilot places are open: payresoai.com\n\n#LatePayment #SmallBusiness #CashFlow #UKBusiness",
+        "linkedin": "38 UK businesses close every day because of late payment.\n\nThat's the UK Government's figure in its Commercial Payments Bill overview (May 2026). These are businesses that did the work and didn't get paid in time.\n\nIt's why we're building PayReso: to help UK small businesses chase, document and resolve late payments before cash flow becomes a crisis.\n\nHas a late payment ever put your own business under real pressure?",
         "instagram": "38 businesses a day. 💔\n\nThat's how many UK businesses close because of late payment (UK Government, May 2026).\n\nPayReso helps you chase, document and resolve late payments. Founding Pilot open: link in bio.\n\n#latepayment #smallbusinessuk #cashflow #ukbusiness #supportsmallbusiness #payreso",
         "facebook": "38 UK businesses close every day because of late payment (UK Government, May 2026). PayReso is being built to help businesses chase, document and resolve late payments. Join the Founding Pilot: payresoai.com"
       }
     },
     {
-      "date": "2026-12-12", "type": "carousel", "pillar": "late-payment education",
+      "date": "2026-12-12",
+      "type": "carousel",
+      "pillar": "late-payment education",
       "topic": "Year-end cash flow checklist",
       "bg_prompt": "Photo of a desk in winter evening with a laptop, a notebook, a mug and subtle fairy lights in the background through a window, deep navy colour grade, cosy and cinematic, no readable text",
       "slides": [
-        {"kind": "cover", "tag": "Before the holidays", "headline": "Your year-end [cash flow] checklist", "sub": "4 jobs to do before Christmas →"},
-        {"kind": "point", "num": "01", "title": "Invoice everything now", "body": "Send any outstanding invoices before customers' offices close for the holidays."},
-        {"kind": "point", "num": "02", "title": "Chase what's overdue", "body": "A polite reminder this week beats a long wait into January."},
-        {"kind": "point", "num": "03", "title": "Check payment runs", "body": "Ask key customers when their last payment run of the year is."},
-        {"kind": "point", "num": "04", "title": "Plan January", "body": "List what's due in, what's due out, and any gaps to cover."},
-        {"kind": "cta", "headline": "Start the new year [in control.]", "body": "Founding Pilot places are open.", "button": "payresoai.com"}
+        {
+          "kind": "cover",
+          "tag": "Before the holidays",
+          "headline": "Your year-end [cash flow] checklist",
+          "sub": "4 jobs to do before Christmas →"
+        },
+        {
+          "kind": "point",
+          "num": "01",
+          "title": "Invoice everything now",
+          "body": "Send any outstanding invoices before customers' offices close for the holidays."
+        },
+        {
+          "kind": "point",
+          "num": "02",
+          "title": "Chase what's overdue",
+          "body": "A polite reminder this week beats a long wait into January."
+        },
+        {
+          "kind": "point",
+          "num": "03",
+          "title": "Check payment runs",
+          "body": "Ask key customers when their last payment run of the year is."
+        },
+        {
+          "kind": "point",
+          "num": "04",
+          "title": "Plan January",
+          "body": "List what's due in, what's due out, and any gaps to cover."
+        },
+        {
+          "kind": "cta",
+          "headline": "Start the new year [in control.]",
+          "body": "Founding Pilot places are open.",
+          "button": "payresoai.com"
+        }
       ],
       "captions": {
-        "linkedin": "Many businesses slow down or close over the holidays, and payments can stall until January.\n\nBefore Christmas:\n1. Send every outstanding invoice now.\n2. Politely chase anything overdue this week.\n3. Ask key customers when their last payment run of the year is.\n4. Map out January: what's coming in, what's going out, and any gaps.\n\nPayReso helps you invoice, remind and keep track in one place: payresoai.com\n\n#CashFlow #SmallBusiness #YearEnd #UKBusiness",
+        "linkedin": "Many businesses slow down or close over the holidays, and payments can stall until January.\n\nA year-end cash flow checklist for UK small businesses, before Christmas:\n1. Send every outstanding invoice now.\n2. Politely chase anything overdue this week.\n3. Ask key customers when their last payment run of the year is.\n4. Map out January: what's coming in, what's going out, and any gaps.\n\nPayReso helps you invoice, remind and keep track in one place.\n\nWhat's on your own year-end checklist?",
         "instagram": "Year-end cash flow checklist 🎄\n\n✅ Invoice everything now\n✅ Chase what's overdue\n✅ Check customers' last payment run\n✅ Plan January\n\nSave this and tick it off this week! Founding Pilot open: link in bio.\n\n#cashflow #smallbusinessuk #yearend #businesstips #christmas #payreso",
         "facebook": "Before the holidays: send every outstanding invoice, chase anything overdue, ask customers about their last payment run of the year, and plan January's cash flow.\n\nSwipe for the checklist. payresoai.com"
       }
     },
     {
-      "date": "2026-12-13", "type": "static", "pillar": "founder story",
+      "date": "2026-12-13",
+      "type": "static",
+      "pillar": "founder story",
       "topic": "Building in public: week update",
       "bg_prompt": "Photo of a whiteboard covered in blurred sticky notes and arrows in a small startup office at night, laptop in foreground, deep navy and blue colour grade, cinematic, no readable text, no faces",
       "slides": [
-        {"kind": "static", "tag": "Building in public", "headline": "Every feature starts with [a real business problem.]", "sub": "Tell us yours: payresoai.com"}
+        {
+          "kind": "static",
+          "tag": "Building in public",
+          "headline": "Every feature starts with [a real business problem.]",
+          "sub": "Tell us yours: payresoai.com"
+        }
       ],
       "captions": {
-        "linkedin": "Every PayReso feature starts with a real problem a business owner told us about.\n\nThe invoice nobody could find. The \"we'll pay Friday\" that never came. The evening lost to chasing.\n\nIf late payment has caused you a headache, I'd love to hear about it. Your story could shape what we build next.\n\nComment below or get in touch: payresoai.com\n\n— Godwin, founder\n\n#BuildInPublic #FounderStory #SmallBusiness #UKStartups",
+        "linkedin": "Every PayReso feature starts with a real problem a business owner told us about.\n\nThe invoice nobody could find. The \"we'll pay Friday\" that never came. The evening lost to chasing late payments.\n\nIf late payment has caused your business a headache, I'd love to hear about it. Your story could shape what we build next.\n\nWhat's the most frustrating late payment you've had to chase?\n\n— Godwin, founder",
         "instagram": "Every feature starts with a real problem 💡\n\nWhat's your worst late-payment story? Tell us in the comments. It could shape what we build next.\n\n#buildinpublic #founderstory #smallbusinessuk #ukstartup #latepayment #payreso",
         "facebook": "Every PayReso feature starts with a real problem a business owner told us about. What's your worst late-payment story? Tell us in the comments, and it could shape what we build next."
       }
