@@ -34,7 +34,19 @@ desktop app needs to be open.
 - Follow the content rules in the project doc `claude/social-media-pipeline.md` (no promises of
   payment or recovery; only live features; Commercial Payments Bill = proposed; "8% above the
   Bank of England base rate"; £40/£70/£100). Check any new fact with a web search.
-- Each entry: date, type, pillar, topic, bg_prompt, slides[], captions{linkedin, instagram, facebook}.
+- **LinkedIn captions (founder decision, 27 Nov 2026):** no links and no hashtags (both cut reach;
+  never "link in comments" either). The first line is a hook under ~110 characters, and plain
+  keywords ("late payment", "UK small businesses", "cash flow", "invoices") appear in the first
+  two lines. Use a specific UK example. End with one genuine question that people can answer from
+  experience, never engagement bait ("comment YES"). Legal posts still end with "General info, not
+  legal advice". Facebook/Instagram captions may keep payresoai.com and hashtags.
+- One LinkedIn caption a week (Tue–Thu) is a question post that invites experiences
+  (Metricool can't create LinkedIn polls, so ask in text).
+- **Founder posts (Tue, Wed, Thu):** also write `captions.founder`, a first-person version for
+  the founder's personal LinkedIn, signed off "— Godwin". It should be a personal angle (what a
+  customer told him, what he learned building), not a copy of the company caption. Same rules,
+  no links, no hashtags.
+- Each entry: date, type, pillar, topic, bg_prompt, slides[], captions{linkedin, instagram, facebook, founder?}.
   Slide kinds: `cover` (tag, headline, sub), `point` (num, title, body), `cta` (headline, body, button),
   `static` (tag, headline, sub). `[brackets]` in text = cyan accent.
 Commit the calendar change.
@@ -87,6 +99,13 @@ confirm three 10:00 AM entries without the word "Draft".
 Never press Escape or click Cancel/Close in the editor: that discards the post. Don't click the
 image icon in the editor (its menu sits over Edit by network and opens Adobe Express; if that
 happens, `prKillAdobe()` removes the overlay safely).
+
+## 7b. Founder LinkedIn draft (Tue, Wed, Thu only, when `captions.founder` exists)
+**Only once the founder's personal LinkedIn is connected in Metricool** (see the project doc;
+until then skip this step). Create a second post for the founder's personal profile with the same
+images and `captions.founder`, date TARGET 10:00 AM, and **save it as a Draft, never Schedule**.
+The founder approves founder posts himself. Never post to the personal profile in bursts: one
+draft per run at most.
 
 ## 8. Report
 - Success: no notification needed unless something is unusual. Send a one-line SendUserMessage:
