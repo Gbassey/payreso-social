@@ -198,50 +198,50 @@
       "date": "2026-12-05",
       "type": "carousel",
       "pillar": "late-payment education",
-      "topic": "A calm, firm reminder sequence",
-      "bg_prompt": "Photo of a smartphone face down next to a laptop and printed invoice on a desk by a rainy window, evening, deep navy blue colour grade, cinematic, no readable text, no people",
+      "topic": "How to reply to common late-payment excuses",
+      "bg_prompt": "Photo of a coffee cup, open notebook and smartphone on a wooden desk in a small UK workshop office, early morning window light, deep navy blue colour grade, cinematic, shallow depth of field, no readable text, no people",
       "slides": [
         {
           "kind": "cover",
           "tag": "Chasing playbook",
-          "headline": "A reminder sequence that stays [calm and firm]",
-          "sub": "5 steps from due date to next steps →"
+          "headline": "Heard these excuses? [Here's what to say.]",
+          "sub": "4 common replies from late payers →"
         },
         {
           "kind": "point",
           "num": "01",
-          "title": "Before it's due",
-          "body": "A friendly heads-up a few days early, with the invoice and how to pay attached."
+          "title": "“We never got it”",
+          "body": "Resend the invoice the same day, check you have the right contact, and ask them to confirm it's arrived."
         },
         {
           "kind": "point",
           "num": "02",
-          "title": "On the due date",
-          "body": "A short, polite note that payment is due today."
+          "title": "“It's in the next run”",
+          "body": "Ask which date that payment run is, and confirm it back to them in writing."
         },
         {
           "kind": "point",
           "num": "03",
-          "title": "A week overdue",
-          "body": "Restate the amount, the due date and the invoice number. Ask if anything is holding it up."
+          "title": "“We're waiting on our own client”",
+          "body": "Be understanding, but agree a firm date or a part-payment plan, and put it in writing."
         },
         {
           "kind": "point",
           "num": "04",
-          "title": "Still unpaid?",
-          "body": "A firmer message that mentions statutory interest and compensation, and a clear date to reply by."
+          "title": "“There's an issue with the work”",
+          "body": "Ask for the details in writing, then respond quickly so it doesn't drift for weeks."
         },
         {
           "kind": "cta",
-          "headline": "Keep every step [on record.]",
-          "body": "PayReso logs each reminder on one timeline.",
+          "headline": "Keep every reply [on record.]",
+          "body": "PayReso keeps invoices, reminders and messages on one timeline.",
           "button": "payresoai.com"
         }
       ],
       "captions": {
-        "linkedin": "Chasing payment doesn't have to be awkward. A simple sequence keeps it calm and firm.\n\n1. A few days before: a friendly heads-up with the invoice attached.\n2. On the due date: a short, polite note.\n3. A week overdue: restate the amount, date and invoice number, and ask if anything is holding it up.\n4. Still unpaid: a firmer message that mentions statutory interest and compensation, with a reply-by date.\n\nWhatever happens next, a clear record of each step helps. PayReso sends the reminders and logs every step on one timeline.\n\nAt which step do your late payers usually pay up?",
-        "instagram": "How to chase payment without the awkwardness 📩\n\n1️⃣ Heads-up before it's due\n2️⃣ Polite note on the day\n3️⃣ Clear follow-up a week later\n4️⃣ Firmer message with a reply-by date\n\nSave this for next time. Founding Pilot open: link in bio.\n\n#smallbusinessuk #latepayment #invoicing #cashflow #freelancetips #payreso",
-        "facebook": "Chasing payment without the awkwardness: a heads-up before it's due, a polite note on the day, a clear follow-up a week later, then a firmer message with a reply-by date.\n\nSwipe for the full sequence. PayReso logs every step for you: payresoai.com"
+        "linkedin": "Late payment excuses UK small businesses hear every week, and a calm way to answer each one.\n\n“We never got the invoice.” Resend it the same day, check you have the right contact, and ask them to confirm it's arrived.\n\n“It's in the next payment run.” Ask which date that run is, then confirm it back in writing.\n\n“We're waiting to be paid ourselves.” Be understanding, but agree a firm date or a part-payment plan.\n\n“There's an issue with the work.” Ask for the details in writing and respond quickly, so a small query doesn't turn into a six-week delay on a £2,000 invoice.\n\nThe common thread: get the answer in writing, with a date attached.\n\nWhich excuse do you hear most often, and what's worked for you?",
+        "instagram": "Heard these from a late payer? 👀\n\n📩 “We never got it” → resend today, ask them to confirm\n📅 “It's in the next run” → ask for the date, confirm in writing\n🤝 “We're waiting on our client” → agree a firm date or plan\n🔍 “There's an issue” → get details in writing, reply fast\n\nSave this for next time. Founding Pilot open: link in bio.\n\n#smallbusinessuk #latepayment #invoicing #cashflow #freelancetips #payreso",
+        "facebook": "Four excuses late payers use, and a calm way to reply to each: resend a “lost” invoice the same day, ask for the date of the “next payment run”, agree a firm date or plan if they're waiting on their own client, and get any issue with the work in writing.\n\nSwipe for the full list. PayReso keeps invoices, reminders and messages on one timeline: payresoai.com"
       }
     },
     {
